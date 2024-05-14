@@ -1,12 +1,23 @@
 here I will be sharing my codes on python while interning at CodeAlpha
 
 '''
-            TASK 1
-there are no dependencies for task 1 except python 
+            TASK 1 (hangman game)
+
+**Dependencies**
+Python
+Pygame
+
+**Run commands**
+first install python from browser and install the extension of python in your IDE (in my case its VS Code)
+then type 
+** pip install pygame **
+then inorder to run the game type
+** python hangman.py **
+
 
 -------------------------------------------------
 
-           TASK 2
+           TASK 2 (excel to tab separated (tsv) file converter)
 
 for Task2 write =>  " pip install openpyxl   "
 then run the program, the program takes an excel file with extension ".xlsx" and writes to a an tab separated file 
