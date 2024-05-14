@@ -182,7 +182,13 @@ class Hangman():
         pygame.mixer.music.load(audio)
         pygame.mixer.music.play()
         pygame.time.wait(delay)
-
+    def user_input(self):
+          #Taking user input here
+  
+        word = input("Enter a character: ").lower()
+        os.system("cls")
+        return word
+      
 # the main function to start the game
     def start_game(self):
             self.play_sound("music\hangman.wav", 1000)
@@ -218,7 +224,7 @@ class Hangman():
                         self.update_guess_word()
 
                         # Get user input
-                        guess = input("Enter a character: ").lower()
+                        guess = self.user_input()
                         self.play_sound("music\hit.mp3", 0)
                         
 
@@ -320,7 +326,7 @@ class Hangman():
 
 hangman = Hangman()
 print("Welcome to hangman game !")
-n = input("press any key to start: ")
-if n :
-    hangman.start_game()
+# n = input("press any key to start: ")
+# if n :
+hangman.start_game()
 
