@@ -2,6 +2,9 @@ here I will be sharing my codes on python while interning at CodeAlpha
 
 '''
             TASK 1 (hangman game)
+**Run the Game**
+In order to run and check the game without installing anything you can just run the executable file named "executable_file(hangman)" and check the game mechanics
+
 
 **Dependencies**
 Python
